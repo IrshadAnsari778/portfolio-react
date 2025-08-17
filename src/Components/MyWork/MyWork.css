@@ -92,3 +92,38 @@
         cursor: pointer;
     }
 }
+
+@media(max-width:360px){
+    .mywork{
+        gap: 50px;
+        margin: 50px 32px;
+        align-items: start;
+    }
+    .mywork-title h1{
+        padding: 0;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .mywork-title img{
+        width: 90px;
+        margin-right: -10px;
+    }
+    .mywork-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .mywork-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .mywork-showmore{
+        padding: 12px 20px;
+        font-size: 13px;
+        margin: 50px auto;
+        cursor: pointer;
+    }
+    .arrow{
+        height: 16px;
+    }
+}

@@ -149,3 +149,53 @@
         padding: 15px 40px;
     }
 }
+
+@media(max-width:360px){
+    .contact{
+        gap: 50px;
+        margin: 50px 32px;
+        align-items: start;
+    }
+    .contact-title h1{
+        padding: 0;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .contact-title img{
+        width: 90px;
+        margin-right: -10px;
+    }
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-left h1{
+        font-size: 26px;
+    }
+    .contact-left p{
+        font-size: 14px;
+    }
+    .contact-detail{
+        gap: 18px;
+    }
+    .contact-detail img{
+        width: 20px;
+    }
+    .contact-right label{
+        font-size: 14px;
+    }
+    .contact-right input{
+        width: 94%;
+        font-size: 14px;
+    }
+    .contact-right textarea{
+        width: 83%;
+        font-size: 14px;
+    }
+    .contact-submit{
+        font-size: 13px;
+        padding: 12px 105px;
+    }
+    .contact-right{
+        margin-top: -70px;
+    }
+}
